@@ -1,13 +1,29 @@
 *{
-    padding: 0%;
+    padding: 0;
     margin: 0%;
     box-sizing: border-box;
+
     
 }
 
-.navbar-content{
-    width: 100%;
+.carousel-item>img{
+
+    height:95vh  ;
+}
+
+.img{
+    width: 400px    ;
+}
+
+.gap{
+    gap: 10px;
+}
+.gap>div{
+    height: 200px;
+}
+
+.ppp{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
